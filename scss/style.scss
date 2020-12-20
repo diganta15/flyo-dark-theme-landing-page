@@ -1,4 +1,37 @@
+
 @media only screen and (max-width:  375px) {
+     //Text
+.text-bold{
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+}
+ .text-large{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway',sans-serif;
+    
+}
+.text-medium{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+//Button
+.btn{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    cursor: pointer;
+}
     body {
       color: white;
       margin: 0px;
@@ -30,6 +63,7 @@
         outline: none;
         background-color: hsl(198, 60%, 50%);
         color: white;
+        cursor: pointer;
     }
 
     nav{
@@ -59,6 +93,11 @@
                     list-style: none;
                     padding-left: 5px;
                     padding-right: 0px;
+                    cursor: pointer;
+
+                }
+                li:hover,li:active{
+                    border-bottom: 1px solid white;
                 }
             }
     }
@@ -309,3 +348,132 @@
     }
 
   }
+ @media only screen and (min-width:769px)
+ {
+     body{
+         margin: 0px;
+     }
+     nav{
+        background-color: hsl(217, 28%, 15%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 30px;
+
+        ul{
+            li{
+                display: inline;
+                color:#fff;
+                font-family: 'Raleway',sans-serif;
+                font-size: 20px;
+                padding-left: 16px;
+            }
+
+        }
+     }
+
+     .showcase-top{
+         display: flex;
+         flex-direction: column;
+         background-color:hsl(217, 28%, 15%) ;
+         padding-top: 30px;
+       margin-left: 0px;
+       margin-right: 0px;
+         .back{
+            
+            
+             justify-content: center;
+             padding-left: 30px;
+             padding-right: 30px;
+
+             .illustration{
+                 display: flex;
+                 justify-content: center;
+                 margin-bottom: 70px;
+             }
+                .heading-1{
+                    text-align: center;
+                    font-size: 3rem;
+                    font-weight: 600;
+                    font-family: 'Raleway',sans-serif;
+                    padding-left: 25rem;
+                    padding-right: 25rem;
+                    color: #fff;
+                    margin-bottom: 40px;
+                    
+                }
+         }
+
+         .dark{
+            background-image: url("/images/bg-curvy-desktop.svg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+               background-position: top;
+            // background-color: hsl(218, 28%, 13%);
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            text-align: center;
+            // padding-left: 28rem;
+            // padding-right: 28rem;
+            .intro-text{
+                margin-top: 0px;
+                padding-top: 40px; 
+                font-size: 1.3rem;
+                opacity: 808;
+                color: #fff;
+                margin-left: 28rem;
+                margin-right: 28rem;
+                padding: 10px;
+               padding-bottom: 8rem;
+            }
+            .btn-mid{
+                width: 18%;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border-radius: 30px;
+                font-size: 20px;
+                border: none;
+    outline: none;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    cursor: pointer;
+            }
+            .flex-in{
+                margin-top: 10rem;
+                background-color:  hsl(218, 28%, 13%);
+                display: grid;
+                padding-left: 70px;
+                padding-right: 70px;
+                grid-template-columns: 2fr 2fr;
+                justify-content: center;
+                
+                .p{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    img{
+                        object-fit: contain;
+                    }
+                    .text-medium{
+                        font-size: 20px;
+                        padding-left: 10rem;
+                        padding-right: 10rem;
+                        text-align: center;
+                        color: #fff;
+                        font-family: 'Raleway',sans-serif;
+                        opacity: 80%;
+                    }
+                    .text-bold{
+                        font-weight: 700;
+                        font-family: 'Raleway',sans-serif;
+                        color: #fff;
+                    }
+                }
+            }
+
+         }
+     }
+     
+ }
