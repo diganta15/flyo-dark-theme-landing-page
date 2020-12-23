@@ -345,6 +345,18 @@
             list-style: none;
             padding-top: 10px;
         }
+
+        .social{
+            padding-top: 60px;
+            color: white;
+               display: flex;
+               justify-content: center;
+               
+            size: 100%;
+            div{
+                margin-left: 30px;
+            }
+        }
     }
 
   }
@@ -475,5 +487,231 @@
 
          }
      }
+
+     .showcase-mid{
+         padding-top: 6rem;
+         background-color:  hsl(218, 28%, 13%);
+         .productive{
+            display: flex;
+            justify-content: space-between;   
+            padding-right: 8rem;
+            padding-left: 8rem; 
+            .text{
+                padding: 3rem;
+                .text-large{
+                    font-size: 3.6rem;
+                    width: 70%;
+                    color: #fff;
+                    font-family: 'Raleway';
+                    font-weight: 700;
+                }
+                .text-medium{
+                    font-size: 22px;
+                    color: #fff;
+                    font-family: 'Raleway';
+                    font-weight: 400;
+                }
+               
+                    .go-button{
+                        color: #fff;
+                        display: flex;
+                        border-bottom: #fff 1px solid;
+                        margin-right: 33em;
+                        
+                        .go{
+                            font-family: 'Raleway';
+                            padding-right: 10px;
+                            color: hsl(176, 68%, 64%);
+                            
+                        }
+                        img{
+                            object-fit: contain;
+                            
+                           
+                        }
+                    }
+                
+         }
+     }
+
+     .testemonials{
+         .quote{
+             padding-left: 8.1rem;
+             padding-bottom: 0px;
+         }
+         .testemonial-cards{
+             display: flex;
+             margin-left: 8rem;
+                margin-right: 8rem;
+                font-family: 'Open-sans',sans-serif;
+                font-size: 18px;
+                padding-bottom: 4rem;
+                color: #fff;
+                .card{
+                    background-color:  hsl(219, 30%, 18%);
+                padding: 16px;
+                border-radius: 8px;
+                margin: 20px;
+
+                }
+
+                .avatar{
+                    display: flex;
+                    img{
+                        margin-top: 15px;
+                        margin-right: 8px;
+                        vertical-align: middle;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                    .des{
+                        .name{
+                            padding-top: 10px;
+                            margin-bottom: 0px;
+                        }
+                        .post{
+                            margin-top: 0px;
+                            padding-top: 0px;
+                            font-size: 10px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+         }
+         
+     }
+     .large-card{
+         text-align: center;
+         background-color:  hsl(217, 28%, 15%);
+         margin-top: 10px;
+         padding-top: 30px;
+         margin-left: 20rem;
+         margin-right: 20rem;
+         font-family: 'Raleway';
+         margin-bottom: 0px;
+         border-top-right-radius: 8px;
+         border-top-left-radius: 8px;
+         .text-large{
+             font-size: 3rem;
+             
+             font-weight: 700;
+             color: #fff;
+         }
+         .text-medium{
+             color: #fff;
+             font-size: 20px;
+             padding-left: 70px;
+             padding-right: 70px;
+             margin-bottom: 0px;
+         }
+     }
+   
      
  }
+ .d{
+     margin-top: 0px;
+     background-color: hsl(216, 53%, 9%);
+    //  padding-top: 10rem;
+    padding-bottom: 10rem;
+     .inputs{
+         margin-left: 20rem;
+         margin-right: 20rem;
+         background-color: hsl(217, 28%, 15%);
+         display: flex;
+         padding-top: 20px;
+         margin-top: 0px;
+         justify-content: center;
+         padding-bottom: 20px;
+         border-bottom-left-radius: 8px;
+         border-bottom-right-radius: 8px;
+         
+         .email{
+            font-size: 1rem;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 12rem;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            margin-right: 10px;
+         }
+         .btn{
+            margin-right: 12rem;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: hsl(176, 68%, 64%);
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+         }
+     }
+ }
+
+ footer{
+     background-color:hsl(216, 53%, 9%) ;
+     padding-left: 4rem;
+     padding-right: 4rem;
+     display: grid;
+     grid-template-columns: 2fr 2fr 1fr 1fr 2fr;
+    font-family: 'Raleway',sans-serif;
+
+     .location{
+        
+        .det{
+            display: flex;
+           
+            .location-icon{
+                // object-fit: contain;
+                margin-top: 0px;
+                padding-bottom: 10px;
+                height: auto;
+                object-fit: contain;
+            }
+            p{
+                padding-left: 10px;
+                color: #fff;
+            }
+        }
+     }
+
+     .contact{
+         padding-left: 20px;
+        padding-top: 60px;
+         div{
+             
+             display: flex;
+             color: #fff;
+             img{
+                 object-fit: contain;
+                 padding-right: 10px;
+             }
+         }
+     }
+
+     .pages{
+         list-style: none;
+         color: #fff;
+         padding-top: 60px;
+
+         li{
+             padding-top: 5px;
+         }
+     }
+
+     .social{
+         padding-top: 60px;
+         color: white;
+            display: flex;
+            justify-content: center;
+            
+         size: 100%;
+         div{
+             margin-left: 30px;
+         }
+     }
+ }
+}
